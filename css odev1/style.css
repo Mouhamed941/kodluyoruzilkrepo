@@ -1,0 +1,41 @@
+    .center {
+        text-align: center;
+        list-style-position: inside;
+    }
+    
+    body {
+        text-align: center;
+    }
+    
+    strong {
+        background-color: white;
+        border-radius: 5px;
+        color: #f27a1a;
+        border: solid 1px #f27a1a;
+    }
+    
+    h1 {
+        color: red
+    }
+    
+    h2 {
+        color: #b7610b;
+    }
+    
+    .wrapper {
+        text-align: center;
+    }
+    
+    .wrapper ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom: 1;
+        *display: inline;
+    }
+    
+    .wrapper li {
+        float: center;
+        padding: 2px 5px;
+    }
